@@ -114,3 +114,27 @@ The technical requirements that are followed while creating this project is as f
 * Servlet
 * JSTL
 * MySQL
+
+## 4. INSTRUCTIONS TO RUN
+
+This tutorial was created in 2017. So, it hasn't been tested out in all of the followings with latest versions.
+
+### Installation Sequence:
+
+1. aio-runtimes_v2.3.8 (Needed for Wamp Server)
+2. jdk-8u131-windows-x64 (Needed for NetBeans IDE)
+3. wampserver3.0.6_x64_apache2.4.23_mysql5.7.14_php5.6.25-7.0.10 (Default port for MySQL i.e 3306)
+4. mysql-installer-community-5.7.18.1 (Customize install, only MySQL Workbench is needed)
+5. netbeans-8.2-windows
+
+### Setting up the environment:
+
+1. Use WAMP Server's phpMyAdmin to set username of MySQL as “root” and password as “roy94”
+2. Create a new schema name "sst" in MySQL using MySQL Workbench
+3. Use MySQL Workbench to import all the database elements: MySQL Workbench > Server > Import in “sst” schema
+4. Open NetBeans IDE > Add new project > point it to NetBeansProjects
+5. Add the two jar files from the JAR Files folder in SST (NetBeans IDE). Right click on SST from Projects > Libraries > Add JAR/Folder > Add those two jar files
+
+### Deploying:
+
+SST > Web Pages > right click on index.jsp and click on “Run”
