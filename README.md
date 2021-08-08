@@ -133,7 +133,7 @@ This tutorial was created in 2017. So, it hasn't been tested out in all of the f
 2. Create a new schema name "sst" in MySQL using MySQL Workbench
 3. Use MySQL Workbench to import all the database elements: MySQL Workbench > Server > Import in “sst” schema
 4. Open NetBeans IDE > Add new project > point it to NetBeansProjects
-5. Add the two jar files from the JAR Files folder in SST (NetBeans IDE). Right click on SST from Projects > Libraries > Add JAR/Folder > Add those two jar files
+5. Extract the `JAR Files.zip` Add the two jar files from the `JAR Files` folder in `SST` (NetBeans IDE). Right click on `SST` from Projects > Libraries > Add JAR/Folder > Add those two jar files
 
 ### Deploying:
 
